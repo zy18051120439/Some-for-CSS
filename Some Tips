@@ -1,0 +1,18 @@
+1.模块自适应于文字高度
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+-webkit-margin-before:1em，是元素上边距数值为1倍字体高度，即字体高为10px的话，上边距就为10px。
+-webkit是浏览器内核，-webkit-margin-before是用于内核为-webkit的浏览器的。
+
+2.圆形头像
+img#portrait{
+	width:100px;
+	height:100px;
+	border-radius:100px;
+}
+其中border-radius注意和其他两个数值要相同。
