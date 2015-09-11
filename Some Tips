@@ -1,6 +1,10 @@
-1.背景渐变
+1.背景渐变-webkit
+详见http://www.zhangxinxu.com/wordpress/2010/04/css-gradient%E6%B8%90%E5%8F%98%E4%B9%8Bwebkit
+%E6%A0%B8%E5%BF%83%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8B%E7%9A%84%E4%BD%BF%E7%94%A8/
 background:-webkit-gradient(type,x1 y1,x2 y2,from(some color), to(some color));
 background: -webkit-gradient(linear,center top,center bottom,from(#ccc), to(#000));
+background: -webkit-gradient(linear, left top, left bottom, from(#ff0), color-stop(0.5, orange), to(rgb(255, 0, 0)));
+其中color-stop(0.5,orange);是过渡点，0.5是指在50%的位置，orange是指颜色。
 
 2.圆形头像
 img#portrait{
