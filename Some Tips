@@ -1,13 +1,6 @@
-1.模块自适应于文字高度
-p {
-  display: block;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-}
--webkit-margin-before:1em，是元素上边距数值为1倍字体高度，即字体高为10px的话，上边距就为10px。
--webkit是浏览器内核，-webkit-margin-before是用于内核为-webkit的浏览器的。
+1.背景渐变
+background:-webkit-gradient(type,x1 y1,x2 y2,from(some color), to(some color));
+background: -webkit-gradient(linear,center top,center bottom,from(#ccc), to(#000));
 
 2.圆形头像
 img#portrait{
